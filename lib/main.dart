@@ -1,3 +1,4 @@
+import 'package:beauty_saloon_app/pages/home_screen.dart';
 import 'package:beauty_saloon_app/pages/login_screen.dart';
 import 'package:beauty_saloon_app/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/splash": (context) => SplashScreen(),
         "/login": (context) => LoginScreen(),
+        "/home": (context) => HomeScreen(),
       },
       initialRoute: "/splash",
     );

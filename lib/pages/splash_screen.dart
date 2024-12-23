@@ -46,7 +46,9 @@ class SplashScreen extends StatelessWidget {
             left: MediaQuery.sizeOf(context).width * 0.1,
             right: MediaQuery.sizeOf(context).width * 0.1,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, "/login");
+              },
               child: Text("Let’s Start"),
             ),
           )
